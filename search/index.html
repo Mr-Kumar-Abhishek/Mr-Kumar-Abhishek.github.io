@@ -1,0 +1,43 @@
+---
+layout: default
+title: Abhishek Kumar's Blog Search
+description: A blog search of my recent developments which I keep in github. This includes some of my personal views on all matters related to software development and whatever I prototype.
+subject: Software Development Blog Search
+apple-title: Abhishek Kumar's Search
+app-name: Abhishek Kumar's Software Development Blog Search
+tweet-title: Abhishek Kumar's Software Developement Blog Search
+tweet-description: A blog Search of my recent developments which I keep in github. This includes some of my personal views on all matters related to software development and whatever I prototype.
+og-title: Abhishek Kumar's Software Developement Blog Search
+og-url: /search
+canonical-url: /search
+keywords: abhishek kumar blog , abhishek's blog, kumar blog, software blogs, software developer blog, best software developer blogs, software engineering blogs, software engineer blogger, blogs of software engineer, best software engineer blogs, top software blogs
+---
+<main class="text-center">
+
+
+    <h1>{{ page.title }}</h1>
+    <section>
+            <!-- HTML search field -->
+            <div id="search-container">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="search-input" placeholder="Type your search here..." autofocus>
+                    </div>
+                <ul id="results-container" class="list-group"></ul>
+                </div>
+                
+                <!-- Grab search-script.js -->
+                <script src="{{site.url}}{{site.baseurl}}/js/search.js" type="text/javascript"></script>
+                
+            <!-- Configuration -->
+                <script>
+                    SimpleJekyllSearch({
+                        searchInput: document.getElementById('search-input'),
+                        resultsContainer: document.getElementById('results-container'),
+                        json: '{{site.url}}{{site.baseurl}}/search.json',
+                        searchResultTemplate: '<li class="list-group-item list-group-item-action flex-column align-items-start"><a class="d-flex w-100 justify-content-between" href="{url}"><h5 class="mb-1">{title}</h5></a><br><small><p>{discription}</p></small><br><span class="post-meta"><small>{date}</small></span></li>'
+                    })
+                </script>
+            </div>
+    </section>
+</main>
