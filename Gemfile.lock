@@ -232,6 +232,7 @@ DEPENDENCIES
   jekyll-sitemap
   jekyll-titles-from-headings
   jemoji
+  kramdown-parser-gfm
   webrick
 
 BUNDLED WITH

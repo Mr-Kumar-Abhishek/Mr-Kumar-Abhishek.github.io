@@ -1,5 +1,11 @@
 name: Abhishek Kumar, Software Developer
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  parse_block_html: true
+  input: GFM
+  syntax_highlighter_opts:
+    disable : true
 permalink: /blog/:year/:month/:day/:title
 url: "https://mr-kumar-abhishek.github.io"
 repository: Mr-Kumar-Abhishek/Mr-Kumar-Abhishek.github.io

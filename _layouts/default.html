@@ -45,6 +45,20 @@ layout: compress
 		<link href="/blog/atom.xml" rel="alternate" title="atom" type="application/atom+xml">
 		<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 		<script src="https://kit.fontawesome.com/dcfde6cfc7.js" crossorigin="anonymous"></script>
+	<!-- MathJax Configuration -->
+	<script>
+		window.MathJax = {
+		tex: {
+			inlineMath: [['$', '$'], ['\\(', '\\)']],
+			displayMath: [['$$', '$$'], ['\\[', '\\]']],
+			processEscapes: true,
+		},
+		svg: { fontCache: 'global' },
+		};
+	</script>
+  <!-- Load MathJax -->
+  <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>		  
+
 	</head>
 	<body>
 		<header>
