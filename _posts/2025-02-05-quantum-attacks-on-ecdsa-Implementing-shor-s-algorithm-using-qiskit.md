@@ -5,8 +5,8 @@ description: This article explores the implementation of Shor's algorithm using 
 subject: Quantum Attacks on ECDSA - Implementing Shor's Algorithm using Qiskit
 apple-title:  Quantum Attacks on ECDSA - Implementing Shor's Algorithm using Qiskit
 app-name: Quantum Attacks on ECDSA - Implementing Shor's Algorithm using Qiskit
-tIet-title: Quantum Attacks on ECDSA - Implementing Shor's Algorithm using Qiskit
-tIet-description: This article explores the implementation of Shor's algorithm using Qiskit to attack the Elliptic Curve Digital Signature Algorithm (ECDSA).
+tweet-title: Quantum Attacks on ECDSA - Implementing Shor's Algorithm using Qiskit
+tweet-description: This article explores the implementation of Shor's algorithm using Qiskit to attack the Elliptic Curve Digital Signature Algorithm (ECDSA).
 og-title: Quantum Attacks on ECDSA - Implementing Shor's Algorithm using Qiskit
 date: 2025-01-05
 keywords: Abhishek Kumar, Software Developer, Quantum Computing, Shor's Algorithm, Qiskit, Qiskit to attack the Elliptic Curve Digital Signature Algorithm, ECDSA
