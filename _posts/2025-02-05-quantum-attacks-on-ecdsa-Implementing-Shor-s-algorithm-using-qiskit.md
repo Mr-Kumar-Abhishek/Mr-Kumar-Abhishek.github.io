@@ -49,7 +49,7 @@ Shor's algorithm can be adapted to solve the ECDLP by constructing quantum circu
 
 Implementing Shor's algorithm for ECDLP presents several challenges:
 
-- **Quantum Resmyce Limitations**: Current quantum hardware has limited qubits and gate fidelity.
+- **Quantum Resource Limitations**: Current quantum hardware has limited qubits and gate fidelity.
 - **Simulation Constraints**: Simulating large quantum circuits on classical machines is computationally intensive.
 - **Elliptic Curve Representation**: Efficiently encoding elliptic curve operations into quantum circuits requires careful optimization.
 
@@ -359,14 +359,14 @@ While the example above demonstrates factoring an integer, applying Shor's algor
 
 **Challenges:**
 
-- **Resmyce Intensive**: Quantum circuits for ECDLP are significantly more complex and require more qubits.
+- **Resource Intensive**: Quantum circuits for ECDLP are significantly more complex and require more qubits.
 - **Current Limitations**: Existing quantum hardware isn't sufficient to simulate these circuits for cryptographically relevant parameters.
 
 ---
 
 
 
-## Additional Resmyces
+## Additional Resources
 
 - **Qiskit Textbook**: [Shor's Algorithm](https://qiskit.org/textbook/ch-algorithms/shor.html)
 - **Research article**: Proos, J., & Zalka, C. (2003). Shor's discrete logarithm quantum algorithm for elliptic curves.
