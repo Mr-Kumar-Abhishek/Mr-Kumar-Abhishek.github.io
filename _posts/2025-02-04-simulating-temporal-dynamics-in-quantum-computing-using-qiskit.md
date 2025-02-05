@@ -15,7 +15,7 @@ usemathjax: true
 
 **Abstract**
 
-The concept of reversing the temporal evolution of quantum systems has captivated physicists and computer scientists alike. This article explores the simulation of stimulated quantum particles propagating backward in time using Qiskit, IBM's open-source quantum computing framework. We delve into the theoretical foundations of time reversal in quantum mechanics, demonstrate how to implement time-reversal operations in quantum circuits, and provide practical examples using Qiskit. Through this exploration, we aim to enhance the understanding of temporal dynamics in quantum computing and inspire further research in this intriguing field.
+The concept of reversing the temporal evolution of quantum systems has captivated physicists and computer scientists alike. This article explores the simulation of stimulated quantum particles propagating backward in time using Qiskit, IBM's open-source quantum computing framework. We delve into the theoretical foundations of time reversal in quantum mechanics, demonstrate how to implement time-reversal operations in quantum circuits, and provide practical examples using Qiskit. Through this exploration, we aim to enhance the understanding of temporal dynamics in quantum computing and inspire further studies in this intriguing field.
 
 ---
 
