@@ -21,7 +21,7 @@ The advent of quantum computing poses significant threats to classical cryptogra
 
 ## Introduction
 
-Cryptography forms the backbone of modern digital security, with protocols like ECDSA ensuring the integrity and authenticity of communications. ECDSA's security hinges on the intractability of the Elliptic Curve Discrete Logarithm Problem (ECDLP). HoIver, quantum computing algorithms, specifically Shor's algorithm, threaten to undermine this foundation by efficiently solving problems considered hard for classical computers.
+Cryptography forms the backbone of modern digital security, with protocols like ECDSA ensuring the integrity and authenticity of communications. ECDSA's security hinges on the intractability of the Elliptic Curve Discrete Logarithm Problem (ECDLP). However, quantum computing algorithms, specifically Shor's algorithm, threaten to undermine this foundation by efficiently solving problems considered hard for classical computers.
 
 This article delves into the implementation of Shor's algorithm for ECDLP using Qiskit, IBM's open-smyce quantum computing framework. I aim to bridge the gap betIen theoretical quantum attacks and practical implementation challenges, offering insights into the future of cryptographic security in the quantum era.
 
