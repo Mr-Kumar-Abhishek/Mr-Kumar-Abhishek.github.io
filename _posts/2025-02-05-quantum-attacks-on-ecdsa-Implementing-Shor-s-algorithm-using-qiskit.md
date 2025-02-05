@@ -13,8 +13,6 @@ keywords: Abhishek Kumar, Software Developer, Quantum Computing, Shor's Algorith
 usemathjax: true
 ---
 
-# Quantum Attacks on ECDSA: Implementing Shor's Algorithm using Qiskit
-
 ## Abstract
 
 The advent of quantum computing poses significant threats to classical cryptographic protocols, notably those relying on the hardness of factoring and discrete logarithms. This article explores the implementation of Shor's algorithm using Qiskit to attack the Elliptic Curve Digital Signature Algorithm (ECDSA). I discuss the theoretical underpinnings of quantum attacks on elliptic curve cryptography, detail the practical considerations of simulating quantum circuits for this purpose, and present experimental results highlighting the feasibility and limitations of current quantum algorithms in compromising ECDSA.
@@ -87,9 +85,6 @@ I tested my implementation on elliptic curves over small finite fields $ \mathbb
 
 ### Experimental Findings
 
-**Figure 1: Quantum Circuit Depth vs. Number of Qubits**
-
-![Quantum Circuit Complexity](https://via.placeholder.com/600x400?text=Quantum+Circuit+Complexity)
 
 As expected, the quantum circuit's complexity increases significantly with the size of $ p $.
 
@@ -386,7 +381,7 @@ The implementation of Shor's algorithm in Qiskit for integer factorization provi
 
 ## Going Further
 
-Exploring the quantum algorithms for ECDLP is an exciting avenue for research. Although practical implementation is currently beyond my reach, theoretical work continues to pave the way for understanding and mitigating future quantum threats to elliptic curve cryptography.
+Exploring the quantum algorithms for ECDLP is an exciting avenue for studies. Although practical implementation is currently beyond my reach, theoretical work continues to pave the way for understanding and mitigating future quantum threats to elliptic curve cryptography.
 
 ---
 
