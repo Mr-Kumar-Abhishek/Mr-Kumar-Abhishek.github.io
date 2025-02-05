@@ -15,7 +15,7 @@ usemathjax: true
 
 **Abstract**
 
-The concept of reversing the temporal evolution of quantum systems has captivated physicists and computer scientists alike. This article explores the simulation of stimulated quantum particles propagating backward in time using Qiskit, IBM's open-source quantum computing framework. We delve into the theoretical foundations of time reversal in quantum mechanics, demonstrate how to implement time-reversal operations in quantum circuits, and provide practical examples using Qiskit. Through this exploration, we aim to enhance the understanding of temporal dynamics in quantum computing and inspire further studies in this intriguing field.
+The concept of reversing the temporal evolution of quantum systems has captivated physicists and computer scientists alike. This article explores the simulation of stimulated quantum particles propagating backward in time using Qiskit, IBM's open-source quantum computing framework. I delve into the theoretical foundations of time reversal in quantum mechanics, demonstrate how to implement time-reversal operations in quantum circuits, and provide practical examples using Qiskit. Through this exploration, I aim to enhance the understanding of temporal dynamics in quantum computing and inspire further studies in this intriguing field.
 
 ---
 
@@ -45,7 +45,7 @@ This implies that the fundamental interactions remain unchanged under time rever
 
 #### **2.2 Stimulated Quantum Particles**
 
-Stimulated emission, where an incoming photon induces the emission of another photon from an excited atom, is a key process in quantum optics. Extending this concept, we consider stimulated quantum particles whose states can be manipulated to emulate time-reversed dynamics.
+Stimulated emission, where an incoming photon induces the emission of another photon from an excited atom, is a key process in quantum optics. Extending this concept, I consider stimulated quantum particles whose states can be manipulated to emulate time-reversed dynamics.
 
 ---
 
@@ -80,7 +80,7 @@ The time-reversed circuit is constructed by applying the adjoint (inverse and tr
 
 #### **4.1 Simulation Setup**
 
-We consider a single-qubit system to illustrate the concept:
+I consider a single-qubit system to illustrate the concept:
 
 1. **Initialize the Quantum Circuit**
 
@@ -153,7 +153,7 @@ Understanding and controlling time-reversed dynamics has potential applications 
 
 ### **6. Conclusion**
 
-Simulating time-reversed evolution using Qiskit not only reinforces fundamental quantum principles but also opens avenues for innovative quantum computing techniques. By manipulating quantum circuits to emulate backward temporal dynamics, we gain deeper insights into the malleable nature of quantum time and its applications.
+Simulating time-reversed evolution using Qiskit not only reinforces fundamental quantum principles but also opens avenues for innovative quantum computing techniques. By manipulating quantum circuits to emulate backward temporal dynamics, I gain deeper insights into the malleable nature of quantum time and its applications.
 
 ---
 
