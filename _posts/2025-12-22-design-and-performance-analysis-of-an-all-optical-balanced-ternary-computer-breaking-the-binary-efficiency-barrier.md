@@ -426,28 +426,148 @@ In the final analysis, the move to Ternary Photonics is a move toward the fundam
 
 <table>
     <tr>
-        <th>Parameter</th><th>Binary CMOS (Baseline)</th><th>Ternary Photonics (Proposed)</th>
+        <th>Parameter</th>
+        <th>Binary CMOS (Baseline)</th>
+        <th>Ternary Photonics (Proposed)</th>
     </tr>
     <tr>
-        <td>Logic Radix</td><td>2</td><td>3</td>
-    <tr>
-        <td>Information Density</td><td>1 bit/wire</td><td>~1.585 bits/wire</td>
+        <td>Logic Radix</td>
+        <td>2</td>
+        <td>3</td>
     </tr>
     <tr>
-        <td>Switching Mechanism</td><td>Transistor (Charge)</td><td>Resonator (Refractive Index)</td>
+        <td>Information Density</td>
+        <td>1 bit/wire</td>
+        <td>~1.585 bits/wire</td>
     </tr>
     <tr>
-        <td>Interconnect Loss</td><td>High (Resistance/Capacitance)</td><td>Negligible (Optical Loss only)</td>
+        <td>Switching Mechanism</td>
+        <td>Transistor (Charge)</td>
+        <td>Resonator (Refractive Index)</td>
     </tr>
     <tr>
-        <td>Latency</td><td>RC Limited (Clocked)</td><td>Time-of-Flight (Flow)</td>
+        <td>Interconnect Loss</td>
+        <td>High (Resistance/Capacitance)</td>
+        <td>Negligible (Optical Loss only)</td>
     </tr>
     <tr>
-       <td>Energy Efficiency</td><td>~2.85 TFLOPS/W</td><td>~45 - 158 TFLOPS/W</td>
+        <td>Latency</td>
+        <td>RC Limited (Clocked)</td>
+        <td>Time-of-Flight (Flow)</td>
     </tr>
     <tr>
-        <td>Primary Bottleneck</td><td>Heat / Interconnects</td><td>Thermal Tuning / Fabrication</td>
+       <td>Energy Efficiency</td>
+       <td>~2.85 TFLOPS/W</td>
+       <td>~45 - 158 TFLOPS/W</td>
+    </tr>
+    <tr>
+        <td>Primary Bottleneck</td>
+        <td>Heat / Interconnects</td>
+        <td>Thermal Tuning &#47;  Fabrication</td>
     </tr>
 
 </table>
 
+
+<strong>Works cited:</strong>
+<ol>
+    <li>
+        Industry perspective: Limits of energy efficiency for conventional CMOS and the need for adiabatic reversible computing | APL Electronic Devices | AIP Publishing, accessed December 23, 2025, https://pubs.aip.org/aip/aed/article/1/3/030902/3364907/Industry-perspective-Limits-of-energy-efficiency
+    </li>
+    <li>
+        The CMOS 2.0 revolution | imec, accessed December 23, 2025, https://www.imec-int.com/en/articles/cmos-20-revolution
+    </li>
+    <li>
+        Photonic AI Acceleration - A New Kind of Computer - Lightmatter®, accessed December 23, 2025, https://lightmatter.co/blog/a-new-kind-of-computer/
+    </li>
+    <li>
+        Ternary Computing: A Systematic Review of Optimal Logic, Balanced Architectures, and Emerging Frontiers in AI Networks and Qutrit Technology - Circular Astronomy, accessed December 23, 2025, https://circularastronomy.com/2025/10/29/ternary-computing-a-systematic-review-of-optimal-logic-balanced-architectures-and-emerging-frontiers-in-ai-networks-and-qutrit-technology/
+    </li>
+    <li>
+        Ternary vs Binary Coding Efficiency | PDF | Applied Mathematics - Scribd, accessed December 23, 2025, https://www.scribd.com/document/747328351/1807-06419v1
+    </li>
+    <li>
+        Comparing binary and ternary adders and multipliers - arXiv, accessed December 23, 2025, https://arxiv.org/pdf/1908.07299
+    </li>
+    <li>
+        Ternary computer - Wikipedia, accessed December 23, 2025, https://en.wikipedia.org/wiki/Ternary_computer
+    </li>
+    <li>
+        Ternary ALU - Louis Duret-Robert, accessed December 23, 2025, https://louis-dr.github.io/ternalu3.html
+    </li>
+    <li>
+        Ternary circuits: R=3 is not the Optimal Radix for Computation (2019) | Hacker News, accessed December 23, 2025, https://news.ycombinator.com/item?id=38979356
+    </li>
+    <li>
+        Design and implementation of polarization rotation and conversion ..., accessed December 23, 2025, https://www.researchgate.net/publication/374540256_Design_and_implementation_of_polarization_rotation_and_conversion-based_3_3_ultrafast_all-optical_ternary_switch_using_microring_resonator
+    </li>
+    <li>
+        Design of All-Optical Ternary Inverter and Clocked SR Flip-Flop Based on Polarization Conversion and Rotation in Micro-Ring Resonator - MDPI, accessed December 23, 2025, https://www.mdpi.com/2304-6732/12/8/762
+    </li>
+    <li>
+        [2107.09906] Femtojoule, femtosecond all-optical switching in lithium niobate nanophotonics - arXiv, accessed December 23, 2025, https://arxiv.org/abs/2107.09906
+    </li>
+    <li>
+        Subnanosecond Electrical Control of Dipolariton-Based Optical Circuits with a Few Femtojoule per Bit Power Consumption - PMC - NIH, accessed December 23, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12371871/
+    </li>
+    <li>
+        Polarization rotation based all-optical ternary half-adder and full-adder: design and analysis using micro-ring resonator | Request PDF - ResearchGate, accessed December 23, 2025, https://www.researchgate.net/publication/358219990_Polarization_rotation_based_all-optical_ternary_half-adder_and_full-adder_design_and_analysis_using_micro-ring_resonator
+    </li>
+    <li>
+        Implementation of XOR/XNOR and AND logic gates by using Mach ..., accessed December 23, 2025, https://www.researchgate.net/publication/265089892_Implementation_of_XORXNOR_and_AND_logic_gates_by_using_Mach-Zehnder_interferometers
+    </li>
+    <li>
+        Realization of Arithmetic Logic Units Using Electro-Optic Microring Resonators in Photonic Circuits - IEEE Xplore, accessed December 23, 2025, https://ieeexplore.ieee.org/iel8/6287639/10820123/10838530.pdf
+    </li>
+    <li>
+        Electrical programmable multilevel nonvolatile photonic random-access memory - PMC, accessed December 23, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC10393989/
+    </li>
+    <li>
+        Neuromorphic Photonics Based on Phase Change Materials - PMC - NIH, accessed December 23, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC10254767/
+    </li>
+    <li>
+        High-speed multifunctional photonic memory on a foundry-processed photonic platform - Optica Publishing Group, accessed December 23, 2025, https://opg.optica.org/optica/fulltext.cfm?uri=optica-12-1-31
+    </li>
+    <li>
+        Uncovering Phase Change Memory Energy Limits by Sub‐Nanosecond Probing of Power Dissipation Dynamics - Eric Pop - Stanford University, accessed December 23, 2025, https://poplab.stanford.edu/pdfs/Stern-SubNsPCMenergyLimits-aem21.pdf
+    </li>
+    <li>
+        Efficient Ternary Logic Circuits Optimized by Ternary Arithmetic Algorithms - Hajim School of Engineering & Applied Sciences, accessed December 23, 2025, https://hajim.rochester.edu/ece/sites/friedman/papers/TEmerging_24.pdf
+    </li>
+    <li>
+        Overcoming challenges of co-integrated optics to advance accelerated computing - SPIE Digital Library, accessed December 23, 2025, https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13372/1337202/Overcoming-challenges-of-co-integrated-optics-to-advance-accelerated-computing/10.1117/12.3043654.full
+    </li>
+    <li>
+        High-Efficiency Quantum Dot Lasers as Comb Sources for DWDM Applications - MDPI, accessed December 23, 2025, https://www.mdpi.com/2076-3417/12/4/1836
+    </li>
+    <li>
+        H100 GPU - NVIDIA, accessed December 23, 2025, https://www.nvidia.com/en-us/data-center/h100/
+    </li>
+    <li>
+        NVIDIA H100 Tensor Core GPU - Deep Learning Performance Analysis - Lambda, accessed December 23, 2025, https://lambda.ai/blog/nvidia-h100-gpu-deep-learning-performance-analysis
+    </li>
+    <li>
+        How many megawatts does the H100 SXM5 GPU consume per teraflop? - Massed Compute, accessed December 23, 2025, https://massedcompute.com/faq-answers/?question=How%20many%20megawatts%20does%20the%20H100%20SXM5%20GPU%20consume%20per%20teraflop?
+    </li>
+    <li>
+        Multi-10kW diode laser systems with wall-plug efficiency greater than 50% - SPIE Digital Library, accessed December 23, 2025, https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13345/133450H/Multi-10kW-diode-laser-systems-with-wall-plug-efficiency-greater/10.1117/12.3048960.full
+    </li>
+    <li>
+        Wavelength-tunable silicon microring modulator - Optica Publishing Group, accessed December 23, 2025, https://opg.optica.org/abstract.cfm?uri=oe-18-11-10941
+    </li>
+    <li>
+        Athermal silicon microring resonators with titanium oxide cladding - Optica Publishing Group, accessed December 23, 2025, https://opg.optica.org/abstract.cfm?uri=oe-21-22-26557
+    </li>
+    <li>
+        Seeing is Believing: A Technical Deep Dive into Lightmatter's Hardware, accessed December 23, 2025, https://lightmatter.co/blog/seeing-is-believing-a-technical-deep-dive-into-lightmatters-hardware/
+    </li>
+    <li>
+        accessed December 23, 2025, https://fourweekmba.com/data-leader-photonic-ai-chips-september-2025-performance-benchmarks/#:~:text=Photonic%20AI%20chips%20achieved%20breakthrough,superior%20to%20traditional%20electronic%20processors.
+    </li>
+    <li>
+        Resolving the thermal challenges for silicon microring resonator devices - Electrical Engineering, accessed December 23, 2025, https://www.ee.columbia.edu/~kishore/publications/NP_2013.pdf
+    </li>
+    <li>
+        Demonstration of a High-Efficiency Short-Cavity III-V-on-Si C-Band DFB Laser Diode, accessed December 23, 2025, https://ieeexplore.ieee.org/document/9585394/
+    </li>
+</ol>
