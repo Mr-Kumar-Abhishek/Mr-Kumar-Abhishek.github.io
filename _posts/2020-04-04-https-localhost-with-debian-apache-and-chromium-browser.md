@@ -63,7 +63,7 @@ $ sudo apt install apache2
 
 After the installation is complete you could verify its installation by pointing your chromium-browser to this address, `http://localhost`. A screenshot in Bodhi Linux is given below. Debian/Ubuntu OSes and its derivatives should show a similar result.
 
-[![Installed Apache on Bodhi Linux](https://res.cloudinary.com/mr-kumar-abhishek/image/upload/c_scale,h_393,q_auto,w_629/v1586393995/mr-kumar-abhishek.github.io/img/2020-04-01-150653_1280x800_scrot.png "Installed Apache on Bodhi Linux")](https://res.cloudinary.com/mr-kumar-abhishek/image/upload/q_auto/v1586393995/mr-kumar-abhishek.github.io/img/2020-04-01-150653_1280x800_scrot.png)
+[![Installed Apache on Bodhi Linux](https://res.cloudinary.com/mr-kumar-abhishek/image/upload/c_scale,h_393,q_auto,w_629/v1586393995/mr-kumar-abhishek.github.io/img/2026-02-03-092956_1280x800_scrot.png "Installed Apache on Bodhi Linux")](https://res.cloudinary.com/mr-kumar-abhishek/image/upload/c_scale,h_393,q_auto,w_629/v1586393995/mr-kumar-abhishek.github.io/img/2026-02-03-092956_1280x800_scrot.png)
 
 <br>
 ### Installing OpenSSL in Debian OS (or in its derivatives)
