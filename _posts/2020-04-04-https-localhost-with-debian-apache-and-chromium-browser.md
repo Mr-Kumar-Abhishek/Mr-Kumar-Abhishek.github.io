@@ -125,10 +125,11 @@ The next set of output from the `rootCA.key` and `rootCA.pem` generation command
 -----
 Country Name (2 letter code) [AU]:IN
 State or Province Name (full name) [Some-State]:Delhi
-Locality Name (eg, city) []:New Delhi
-Organization Name (eg, company) [Internet Widgits Pty Ltd]:Technocrat Inc.
-Organizational Unit Name (eg, section) []:cryptonics
-Common Name (e.g. server FQDN or YOUR name) []:Abhishek Kumar
+Locality Name (eg, city) []:Delhi
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:Cyberia
+Organizational Unit Name (eg, section) []:Cybernetics
+Common Name (e.g. server FQDN or YOUR name) []:Cyberia
+Email Address []:cyberia@cyberia.in
 ```
 
 It is better to answer all these questions with a fictional answer as it's for local development purposes only. (As I have done in above.)
