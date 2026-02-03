@@ -87,7 +87,7 @@ It should give output as such:
 
 ```
 $ openssl version
-OpenSSL 1.1.1  11 Sep 2018
+OpenSSL 3.5.4 30 Sep 2025 (Library: OpenSSL 3.5.4 30 Sep 2025)
 ```
 
 <br>
