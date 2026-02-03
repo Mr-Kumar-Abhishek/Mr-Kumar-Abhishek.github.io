@@ -106,30 +106,18 @@ openssl req -x509 -nodes -new -sha256 -days 1024 -newkey rsa:2048 -keyout RootCA
 The output of the above command should like this:
 
 ```
-Can't load /home/acer/.rnd into RNG
-3072431872:error:2406F079:random number generator:RAND_load_file:Cannot open file:../crypto/rand/randfile.c:88:Filename=/home/acer/.rnd
-Generating a RSA private key
-......................................+++++
-............................+++++
-writing new private key to 'RootCA.key'
-```
-
-As you could see from the above output, there is an error that `.rnd` file was not able to load. This is a minor error, and can be fixed, by removing (or commenting out) `RANDFILE = $ENV::HOME/.rnd` from `/etc/ssl/openssl.cnf` . But doing this will hamper the security if you are making the CA for production purposes. This file is used to store about 256 bytes of seed data from CSPRING which is used internally across invocations. This is useful on low entropy systems that make a lot of SSL invocations, such as in embedded devices. Data in this file is an additional entropy to the existing RNG. As the RNG loads some amount of entropy from system-specific entropy sources at the time it is initialized, the `.rnd` file is not the only source of entropy used in the RNG state.
-
-The most recommended way is to seed something initially, is this: 
-
-```
-dd if=/dev/urandom of=~/.rnd bs=256 count=1
-```
-
-After which, at least give these permissions of use, or more:
+openssl req -x509 -nodes -new -sha256 -days 1024 -newkey rsa:2048 -keyout RootCA.key -out RootCA.pem 
+.+.....+++++++++++++++++++++++++++++++++++++++*........+++++++++++++++++++++++++++++++++++++++*...............+.......+.....+...+...+...+..........+..+............+..........+........+....+.........+..+...+.+...+...+..+.............+............+..+.+.........+.........+..+...+.......+..................+.....+.+........+.+..+...+................+.....+.+........+....+...........+......+.+..............+.+..+.......+........+.+......+...+...+...+....................+.+......+...+....................+....+..+.+...+..+.........+....+...........+...+.+......+........+.+............+...............+.....+....+...+...+..+..........+..+...............+.+....................+...+.......+..+..........+..+....+......+.....+...............++++++
+.+..........+........+......+............+...+.......+..+.+..+....+........+.+.....+.+.........+.........+.....+.+...........+.........+.+.....+.+........+............+.......+..+....+...............+......+...+...+++++++++++++++++++++++++++++++++++++++*..+.........+...............+....+..+.........+...+..........+...+...+...............+......+........+++++++++++++++++++++++++++++++++++++++*.......+.........+..+...+.........+.+......+...+..+...+......+....+.....+.+..+....+...+..+.+...+......+...........+....+.....+.+..+.....................+......+.+.....+............+...+.......+...+........+....+..+...+.+.....+.+.....+.........+....+..+...+......+.+...........+...............+...............+.......+....................+............+....++++++
+-----
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter '.', the field will be left blank.
 
 ```
-$ chmod 600 ~/.rnd
-```
-Before using the `rootCA.key` and `rootCA.pem` generation command  mentioned before. 
-
-However, since this is not a CA that will be used for a production environment we could move ahead ignoring this error.
 
 The next set of output from the `rootCA.key` and `rootCA.pem` generation command will be a list of questions, which are given below:
 
