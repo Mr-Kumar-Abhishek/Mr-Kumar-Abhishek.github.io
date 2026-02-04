@@ -162,20 +162,6 @@ After the above file is made, we could now easily generate `localhost.key`, `loc
 $  openssl req -new -nodes -newkey rsa:2048 -keyout localhost.key -out localhost.csr
 ```
 
-The output of the above code should look something like this:
-
-```
-Can't load /home/acer/.rnd into RNG
-3072198400:error:2406F079:random number generator:RAND_load_file:Cannot open file:../crypto/rand/randfile.c:88:Filename=/home/acer/.rnd
-Generating a RSA private key
-................................................................+++++
-....................+++++
-writing new private key to 'localhost.key'
------
-
-```
-
-Again, we could ignore the error regarding `.rnd` file in a development server, however, if you do want to resolve this, refer to the CA creation section written before. 
 
 Next set of output is again a list of questions which are answered with imaginary data:
 
